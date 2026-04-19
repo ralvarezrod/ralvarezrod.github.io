@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.afiche {
+    @apply w-[1080px] min-h-[1080px] border-4 border-black border-solid;
+}
+
+.sekuya {
+  font-family: "Sekuya", system-ui;
+}
+
+.roboto {
+  font-family: "Roboto Condensed", system-ui;
+}
+
+.arimo {
+  font-family: "Arimo", system-ui;
+}
+
+.card {
+  @apply bg-neutral-100 w-full rounded-xl p-4;
+}
